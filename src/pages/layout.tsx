@@ -1,5 +1,4 @@
 "use client"
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -12,10 +11,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Uri Assessment",
-  description: "Charts display",
-};
 
 export default function RootLayout({
   children,
