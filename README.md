@@ -57,6 +57,23 @@ Handles API call and manages state.
 
 Memoized with React.memo.
 
+# Dynamic Page — /insights/[hashtag]
+- Grabs hashtag from router params
+- Uses useHashtagTrend to fetch data
+
+Shows:
+- Spinner/skeleton on load
+- Error with retry button if failed
+- Chart and sentiment info if successful
+- Uses responsive layout with Material UI
+
+### 🧠 Performance Optimizations
+
+React.memo -Memoize chart + card components
+useCallback -	Memoize data fetch + retry handler
+useMemo -	Format dates / calculate direction
+
+
 ## Getting Started
 
 First, run the development server:
@@ -71,5 +88,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
