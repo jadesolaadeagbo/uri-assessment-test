@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/0db571d7-9fe7-47d3-8a58-18f5a64dc83b
 # 📊 Hashtag Sentiment Insights
 
 A dynamic sentiment insight page that visualizes hashtag trends using an interactive chart.
