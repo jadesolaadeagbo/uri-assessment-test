@@ -1,6 +1,8 @@
+
+https://github.com/user-attachments/assets/0db571d7-9fe7-47d3-8a58-18f5a64dc83b
 # 📊 Hashtag Sentiment Insights
 
-A dynamic sentiment insight page that visualizes Twitter-style hashtag trends using an interactive chart.
+A dynamic sentiment insight page that visualizes hashtag trends using an interactive chart.
 
 ## 🧩 Overview
 
@@ -87,5 +89,13 @@ pnpm dev
 # or
 bun dev
 ```
+
+# Completed in 2 hours
+
+
+<img width="1440" alt="Screenshot 2025-04-07 at 01 24 48" src="https://github.com/user-attachments/assets/72b66623-8aba-4cb8-af41-2547cfb7419e" />
+<img width="1440" alt="Screenshot 2025-04-07 at 01 21 53" src="https://github.com/user-attachments/assets/5ace78fe-59bb-46d4-8309-76d723793ee6" />
+<img width="1440" alt="Screenshot 2025-04-07 at 01 22 01" src="https://github.com/user-attachments/assets/b02384cc-c89f-4f1c-9bbc-7294e9c2114a" />
+
 
 
