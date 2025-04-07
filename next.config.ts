@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/insights/uri', // Replace 'hashtag' with the default hashtag
+        permanent: true,
+      },
+    ];
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
