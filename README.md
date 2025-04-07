@@ -44,13 +44,13 @@ Handles API call and manages state.
 
 
 ## 📦 HashtagTrendCard
-# Displays:
+### Displays:
 - Title
 - Range
 - 📈 or 📉 based on sentiment direction
 - Chart (via SentimentChart)
 
-# 📊 SentimentChart
+### 📊 SentimentChart
   Renders a line chart with:
 - Date on x-axis
 - Sentiment on y-axis
